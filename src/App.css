@@ -1,0 +1,99 @@
+body {
+  background-color: #010101;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 550px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.nav {
+  background: #f55a5a;
+  width: 550px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  align-items: center;
+}
+
+.nav span {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Journal */
+
+.journal-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 35px;
+  color: #2b283a;
+}
+
+.journal {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.journal h2 {
+  margin-top: 0;
+}
+
+.journal-img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.journal-loc {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.journal-loc img {
+  width: 7px;
+  height: 10px;
+}
+
+.journal-loc span {
+  font-weight: 400;
+  line-height: 12px;
+  font-size: 10px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.journal-loc a {
+  color: #918e9b;
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+.journal-des {
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #2b283a;
+  line-height: 1.5;
+}
+
+.journal-date {
+  font-weight: 700;
+  font-size: 10.24px;
+}
+
+.cap {
+  line-height: 1;
+}
